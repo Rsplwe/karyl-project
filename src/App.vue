@@ -88,7 +88,7 @@ interface RouteMeta {
 }
 
 const getBackgroundImage = (): string => {
-  const data = [
+  const data: [number, number, string][] = [
     [0, 6, BackgroundImageWithNight],
     [7, 16, BackgroundImageWithDay],
     [17, 18, BackgroundImageWithSunset],
