@@ -67,6 +67,6 @@ npm run build
 - **[fancyapps/ui](https://github.com/fancyapps/ui)**
 - **[zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js)**
 - **[lodash](https://github.com/lodash/lodash)**
-- **[MatteoGabriele/vue-gtag](https://github.com/MatteoGabriele/vue-gtag)**
+- **[AmazingDreams/vue-matomo](https://github.com/AmazingDreams/vue-matomo)**
 - **[vuejs/vue](https://github.com/vuejs/vue)**
 - **[axios](https://github.com/axios/axios)**

@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import { router } from "./router";
 import App from "./App.vue";
-import VueGtag from "vue-gtag";
+import VueMatomo from 'vue-matomo'
 import mdui from "mdui";
 
 mdui
@@ -22,10 +22,26 @@ router.afterEach((to) => {
 createApp(App)
   .use(router)
   .use(
-    VueGtag,
-    {
-      pageTrackerScreenviewEnabled: true,
-      config: { id: "G-SMXPN2V2GY" },
+    VueMatomo, {
+      // Configure your matomo server and site by providing
+      host: 'https://analytics.rsplwe.com',
+      siteId: 1,
+      trackerFileName: 'matomo',
+      router: router,
+      enableLinkTracking: true,
+      requireConsent: false,
+      trackInitialView: true,
+      disableCookies: false,
+      requireCookieConsent: false,
+      enableHeartBeatTimer: true,
+      heartBeatTimerInterval: 15,
+      debug: false,
+      userId: undefined,
+      cookieDomain: undefined,
+      domains: undefined,
+      preInitActions: [],
+      trackSiteSearch: false,
+      crossOrigin: undefined,
     },
     router
   )

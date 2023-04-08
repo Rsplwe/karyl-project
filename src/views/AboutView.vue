@@ -40,9 +40,6 @@
       <a href="https://github.com/lodash/lodash">lodash</a>
     </li>
     <li>
-      <a href="https://github.com/MatteoGabriele/vue-gtag">MatteoGabriele/vue-gtag</a>
-    </li>
-    <li>
       <a href="https://github.com/vuejs/vue">vuejs/vue</a>
     </li>
     <li>
