@@ -30,7 +30,7 @@
 通过 Git 克隆本项目的文件（需要安装：[Git](https://git-scm.com/)）：
 
 ```bash
-git clone https://github.com/Lytsu/lowlight.git
+git clone https://github.com/Rsplwe/karyl-project.git
 ```
 
 ### 安装项目依赖
