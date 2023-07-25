@@ -14,7 +14,7 @@ service.interceptors.response.use(
   (response) => {
     const res = response.data;
 
-    if (res.code !== 114514) {
+    if (res.code !== 0) {
       // showDialog("Request Error", res.message);
       return Promise.reject(new Error(res.message || "Error"));
     } else {
