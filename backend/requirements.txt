@@ -1,0 +1,4 @@
+protobuf==4.23.4
+tornado==6.3.2
+loguru==0.7.0
+diskcache==5.6.1
