@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.27",
-    "axios": "^1.6.0",
+    "axios": "^1.6.2",
     "clipboard": "^2.0.11",
     "crc32": "^0.2.2",
     "mdui": "^1.0.2",
