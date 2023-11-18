@@ -174,5 +174,6 @@ onMounted(() => {
 
 .drawer-opactity {
   background-color: rgba(0, 0, 0, 0.35);
+  z-index: 0;
 }
 </style>
