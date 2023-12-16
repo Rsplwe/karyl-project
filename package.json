@@ -33,7 +33,7 @@
     "@vitejs/plugin-vue": "^4.5.0",
     "lodash-es": "^4.17.21",
     "sass": "^1.69.5",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.3",
     "vite": "^4.5.0",
     "vue-tsc": "^1.8.22"
   }
